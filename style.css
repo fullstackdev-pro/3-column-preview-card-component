@@ -1,3 +1,68 @@
+.container {
+    margin: 5rem 1rem;
+}
 
-.attribution { font-size: 11px; text-align: center; }
+body {
+    margin: 0;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+    font-weight: 700;
+}
+
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 5px 0 0;
+}
+
+.card1 > div {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card2 > div {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 5px 5px;
+}
+
+.card3 > div {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section__title {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.section__subtitle {
+    padding-bottom: 2rem;
+}
+
+.section__title-icon {
+    padding: 2rem 0;
+}
+
+.
+
+.attribution { font-size: 11px; text-align: center; color: black;}
 .attribution a { color: hsl(228, 45%, 44%); }
+
