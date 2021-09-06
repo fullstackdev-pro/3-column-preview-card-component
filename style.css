@@ -51,6 +51,7 @@ body {
 .section__title {
     font-size: 2rem;
     padding-bottom: 2rem;
+    text-transform: uppercase;
 }
 
 .section__subtitle {
