@@ -1,5 +1,5 @@
 .container {
-    margin: 5rem 1rem;
+    margin: 5rem 1rem 1.5rem 1rem;
 }
 
 body {
@@ -8,15 +8,15 @@ body {
 }
 
 @font-face {
-    font-family: 'Lexend Deca';
-    src: url(https://fonts.google.com/specimen/Lexend+Deca);
-    font-weight: 400;
-}
-
-@font-face {
     font-family: 'Big Shoulders Display';
     src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
     font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+    font-weight: 400;
 }
 
 .card1 {
@@ -55,14 +55,90 @@ body {
 
 .section__subtitle {
     padding-bottom: 2rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2rem;
 }
 
 .section__title-icon {
     padding: 2rem 0;
 }
 
-.
+.button {
+    padding: 0 1rem 3rem 1rem;
+}
 
-.attribution { font-size: 11px; text-align: center; color: black;}
+.section__button1,
+.section__button2,
+.section__button3 {
+    border-radius: 30px;
+    border: none;
+    padding: 1rem 1.5rem;
+    position: relative;
+    font-size: 1rem;
+}
+
+.section__button1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.section__button2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.section__button3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.section__button1:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: 2.5px solid white;
+    cursor: pointer;
+    color: white;
+}
+
+.section__button2:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: 2.5px solid white;
+    cursor: pointer;
+    color: white;
+}
+
+.section__button3:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 2.5px solid white;
+    cursor: pointer;
+    color: white;
+}
+
+.attribution { font-size: 14px; text-align: center; color: black; padding-bottom: 1rem;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@media only screen and (min-width: 1440px) {
+    .container {
+        display: flex;
+        padding: 3rem 7rem 1rem 17rem;
+        width: 62%;
+    }
+
+    .card1 {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card3 {
+        border-radius: 0 10px 10px 0;
+    }
+    
+    .section__title {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    
+    .section__subtitle {
+        font-size: 1.2rem;
+    }
+
+    .button {
+        padding: 2.5rem 1rem 3rem 1rem;
+    }
+    
+}
