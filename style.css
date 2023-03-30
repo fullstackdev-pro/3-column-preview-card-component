@@ -1,9 +1,10 @@
 .container {
-    margin: 5rem 1rem 1.5rem 1rem;
+    margin: 0 auto;
+    padding: 3rem 3rem;
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     color: white;
 }
 
@@ -113,11 +114,10 @@ body {
 .attribution { font-size: 14px; text-align: center; color: black; padding-bottom: 1rem;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 992px) {
     .container {
         display: flex;
-        padding: 3rem 7rem 1rem 17rem;
-        width: 62%;
+        padding: 5rem 5rem 0 5rem; 
     }
 
     .card1 {
@@ -142,4 +142,11 @@ body {
         padding: 2.5rem 1rem 3rem 1rem;
     }
     
+}
+
+@media only screen and (min-width: 1441px) {
+    .container {
+        display: flex;
+        padding: 7rem 10rem ; 
+    }
 }
